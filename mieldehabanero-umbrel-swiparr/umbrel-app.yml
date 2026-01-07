@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: mieldehabanero-umbrel-swiparr
+name: Swiparr
+tagline: Tinder for your Jellyfin media library.
+icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/swiparr.png
+category: media
+version: v0.1.48
+description: >-
+  Swiparr is a fun way to discover and decide what to watch next from your Jellyfin media library. Think "Tinder for Movies" – swipe through your library, match with friends in a session, and find something everyone wants to watch.
+
+  It's a web app built with Next.js, connects to your Jellyfin server, and is available to host as a docker container. Open source and free forever.
+website: https://github.com/m3sserstudi0s/swiparr
+developer: m3sserstudi0s
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+dependencies: []
+repo: https://github.com/m3sserstudi0s/swiparr
+support: https://github.com/m3sserstudi0s/swiparr/issues
+port: 9344
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  chore: bump version to v0.1.48 [skip ci]
+torOnly: false
+submitter: mieldehabanero
+submission: https://github.com/getumbrel/umbrel-apps/pull/
