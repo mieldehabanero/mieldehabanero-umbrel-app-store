@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: mieldehabanero-umbrel-maintainerr
+name: Maintainerr
+tagline: Looks and smells like Overseerr, does the opposite. Maintenance tool for the Plex ecosystem.
+icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/maintainerr.png
+category: media
+version: v2.26.0
+description: >-
+  Maintainerr makes managing your media easy. No longer will you have to worry about your precious hard drive space being taken up by media, that isn't even being watched.
+website: https://maintainerr.info
+developer: Maintainerr
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+dependencies: []
+repo: https://github.com/maintainerr/maintainerr
+support: https://github.com/maintainerr/maintainerr/issues
+port: 9054
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  Bug Fixes
+  - Correct path to database migrations (#2193) (abf52ba)
+  - Handle errors and improve log file retrieval in log stream (#2229) (0e88b37)
+  - Improve error handling when Plex returns error (#2236) (7f7943d)
+  - Rule importer should enforce library selection (#2177) (3d67915)
+  - Stop "Plex API isn't fully initialized" log at startup (#2188) (641de9e)
+  
+  Features
+  - add post-release actions to update DockerHub README (#2207) (b3b49eb)
+torOnly: false
+submitter: mieldehabanero
+submission: https://github.com/getumbrel/umbrel-apps/pull/
