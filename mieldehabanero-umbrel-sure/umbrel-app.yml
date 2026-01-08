@@ -1,0 +1,30 @@
+manifestVersion: 1.1
+id: mieldehabanero-umbrel-sure
+category: finance
+name: Sure
+version: 'v0.6.6-hotfix.1'
+tagline: The personal finance app for everyone (by everyone).
+description: >-
+  The personal finance app for everyone (by everyone)
+
+  Sure is an all-in-one personal finance platform. Track, optimize, grow, and manage your money through every stage of life.
+releaseNotes: >-
+  What's Changed
+
+  - Harden SimpleFin sync: retries, safer imports, manual relinking, and data-quality reconciliation by @luckyPipewrench in #544
+  - DS::Menu: Fix page jump when opened by @DeathCamel58 in #520releases
+developer: Sure
+website: https://sure.am/
+dependencies: []
+repo: https://github.com/we-promise/sure
+support: https://github.com/we-promise/sure/discussions
+port: 3063
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ''
+defaultUsername: ''
+defaultPassword: ''
+submitter: mieldehabanero
+submission: https://github.com/getumbrel/umbrel-apps/pull/1105
