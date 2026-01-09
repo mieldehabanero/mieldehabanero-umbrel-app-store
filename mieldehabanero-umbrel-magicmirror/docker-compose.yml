@@ -1,0 +1,15 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: mieldehabanero-umbrel-magicmirror_app_1
+      APP_PORT: '8080'
+
+  app:
+    image: karsten13/magicmirror:alpine
+    restart: unless-stopped
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/opt/magic_mirror/config
+      - ${APP_DATA_DIR}/data/modules:/opt/magic_mirror/modules
+      - ${APP_DATA_DIR}/data/custom.css:/opt/magic_mirror/css/custom.css
+    env_file:
+      - ${APP_DATA_DIR}/data/.env

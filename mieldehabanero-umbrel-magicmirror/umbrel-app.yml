@@ -1,0 +1,29 @@
+manifestVersion: 1.1
+id: mieldehabanero-umbrel-magicmirror
+category: automation
+name: MagicMirror
+version: "v2.34.0"
+tagline: MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant.
+description: >-
+  MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant. MagicMirror² is built by the creator of the original MagicMirror with the incredible help of a growing community of contributors.
+  
+  MagicMirror² focuses on a modular plugin system and uses Electron as an application wrapper. So no more web server or browser installs necessary!
+
+releaseNotes: >-
+  This version includes various improvements and bug fixes.
+developer: MichMich
+website: https://magicmirror.builders/
+dependencies: []
+repo: https://github.com/MagicMirrorOrg/MagicMirror
+support: https://github.com/MagicMirrorOrg/MagicMirror/issues
+port: 9374
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+icon: https://avatars.githubusercontent.com/u/153594697
+submitter: meildehabanero
+submission: https://github.com/mieldehabanero/mieldehabanero-umbrel-app-store
